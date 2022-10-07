@@ -3,26 +3,33 @@
 <html lang="en">
 
 <head>
-    <title>c418. - Home</title>
+    <title>c418. - About</title>
     <link rel="stylesheet" href="assets/styles.css" />
     <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <script src="./assets/hof.js"></script>
 </head>
 
 <body>
     <div id="page">
         <h1>c418.</h1>
 
+        <div id="navigation">
+            <ul id="nav-ul">
+                <li class="nav-li"><a href="./index.html" class="nav-a">Home</a></li>
+                <li class="nav-li"><a href="./about.html" class="nav-a">About</a></li>
+                <li class="nav-li"><a href="./albums.html" class="nav-a">Albums</a></li>
+                <li class="nav-li"><a href="./signup.html" class="nav-a">Sign Up</a></li>
+                <li class="nav-li"><a href="#" class="nav-a nav-a-cur">HoF</a></li>
+            </ul>
+        </div>
+
         <div id="content">
-           <div id="home-links-top" class="home-links">
-                <a href="./about.html"> <img src="assets/images/homelink1.png" class="home-links-img" alt="Link to About page" title="About"></a>
-                <a href="./albums.html"> <img src="assets/images/homelink2.png" class="home-links-img" alt="Link to Albums page" title="Albums"></a>
-           </div>
-           <div id="home-links-botm" class="home-links">
-                <a href="./signup.html"> <img src="assets/images/homelink3.png" class="home-links-img" alt="Link to Sign Up page" title="Sign Up"></a>
-                <a href="./hall-of-fame.html"> <img src="assets/images/homelink4.png" class="home-links-img" alt="Link to Hall of Fame" title="Hall of Fame"></a>
+            <form class="hof-form">
+                <label for="hof-year">Year</label>
+                <input type="number" id="hof-year" name="hof-year" class="form-text">
+                <input type="button" id="hof-button" class="form-button" value="Submit">
 
-           </div>
-
+            </form>
         </div>
 
         <div id="footer">

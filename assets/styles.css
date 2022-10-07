@@ -1,0 +1,282 @@
+/* GENERAL */
+
+html body {
+    background-color: #ffb6c1;
+    margin: 0px;
+    height:100vh;
+    width:100%;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 48pt;
+    color: #fff6e6;
+}
+
+h3{
+    font-family: monospace;
+    font-size: 14pt;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    color: #fff6e6;
+}
+
+h5 {
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+a{
+    color: #e8ed7f;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#navigation {
+    width: 100%;
+    height: auto;
+
+    flex-shrink: 0;
+}
+
+#nav-ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:0px;
+    margin-bottom: 20px;
+    
+}
+
+
+.nav-li {
+    display: inline;
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+
+    background-color: #ff9e9e;
+    border-radius: 5px;
+}
+
+.nav-a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: x-large;
+    color: #fff6e6;
+    transition: 0.2s;
+    text-align: center;
+
+}
+
+.nav-a:hover {
+    color: #ff3e3e;
+    transition: 0.2s;
+}
+
+.nav-a-cur {
+    color: #ff3e3e;
+}
+
+
+#page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+    align-items: stretch;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    /*margin-bottom: 220px; */
+    /* should be height of #footer + 20 for spacing */
+}
+
+
+
+#footer {
+
+    background-color: #ff899e;
+    flex-shrink: 0;
+    
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    min-height:200px;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer-sect{
+    flex-grow: 1;
+}
+
+.footer-text{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffc4d1;
+    white-space: nowrap;
+    padding-left: 10px;
+    
+}
+
+
+#footer-left {
+}
+
+#addr-ul {
+
+    list-style-type: none;
+
+}
+
+
+#footer-right {
+
+}
+
+#footer-icon-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+
+.footer-icon {
+    margin: 10px;
+    height: 10vw;
+    max-height:40px
+}
+
+
+
+/* HOME */
+
+.home-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.home-links-img{
+    width: 40vw;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+#home-links-top{
+
+}
+
+#home-links-botm{
+
+
+}
+
+
+/* ABOUT */
+
+#about-bio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-bio-img{
+    max-block-size: 300px;
+    block-size: 50vw;
+    margin: 16px;
+}
+
+#about-bio-text{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    color: #3089c4;
+    margin:16px;
+    width: 50vw;
+}
+
+/* ALBUMS */
+
+#album-grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:20px;
+}
+
+
+.album-grid-img{
+    max-block-size: 200px;
+    block-size: 40vw;
+}
+
+.album-ol{
+    font-family: monospace;
+    font-size: 10pt;
+
+    color: #be125a;
+}
+
+
+/* SIGNUP */
+.signup-form{
+    margin: 20px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #be125a;
+}
+
+/* HALL OF FAME */
+.hof-form{
+    margin: 10px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #be125a;
+}
+
+/* FORMS */
+
+.form-text{
+    margin-bottom: 10px;
+    background-color: #fff6e6;
+    border-style: solid;
+    border-color: #be125a;
+}
+
+.form-button{
+    background-color: #be125a;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #fff6e6;
+    border-style: solid;
+    border-color: #fff6e6;
+}

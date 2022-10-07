@@ -3,26 +3,34 @@
 <html lang="en">
 
 <head>
-    <title>c418. - Home</title>
+    <title>c418. - Sign Up</title>
     <link rel="stylesheet" href="assets/styles.css" />
     <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <script src="./assets/signup.js"></script>
 </head>
 
 <body>
     <div id="page">
         <h1>c418.</h1>
 
+        <div id="navigation">
+            <ul id="nav-ul">
+                <li class="nav-li"><a href="./index.html" class="nav-a">Home</a></li>
+                <li class="nav-li"><a href="./about.html" class="nav-a">About</a></li>
+                <li class="nav-li"><a href="./albums.html" class="nav-a">Albums</a></li>
+                <li class="nav-li"><a href="#" class="nav-a nav-a-cur">Sign Up</a></li>
+                <li class="nav-li"><a href="./hall-of-fame.html" class="nav-a">HoF</a></li>
+            </ul>
+        </div>
+
         <div id="content">
-           <div id="home-links-top" class="home-links">
-                <a href="./about.html"> <img src="assets/images/homelink1.png" class="home-links-img" alt="Link to About page" title="About"></a>
-                <a href="./albums.html"> <img src="assets/images/homelink2.png" class="home-links-img" alt="Link to Albums page" title="Albums"></a>
-           </div>
-           <div id="home-links-botm" class="home-links">
-                <a href="./signup.html"> <img src="assets/images/homelink3.png" class="home-links-img" alt="Link to Sign Up page" title="Sign Up"></a>
-                <a href="./hall-of-fame.html"> <img src="assets/images/homelink4.png" class="home-links-img" alt="Link to Hall of Fame" title="Hall of Fame"></a>
-
-           </div>
-
+            <form class="signup-form">
+                <label for="signup-name">Name</label><br>
+                <input type="text" id="signup-name" name="signup-name" class="form-text" maxlength="100" required><br>
+                <label for="signup-email">Email</label><br>
+                <input type="email" id="signup-email" name="signup-email" class="form-text" maxlength="100" required><br>
+                <input type="button" id="signup-button" value="Sign Up" class="form-button">
+            </form>
         </div>
 
         <div id="footer">
@@ -39,7 +47,6 @@
                             <li>United Kingdom</li>
                         </ul>
                 </div>
-
 
                 <div id="footer-mid" class="footer-sect">
                     <a href="#" >Privacy Policy</a><br>
