@@ -1,2 +1,2 @@
 # NotBlod.github.io
-work in progress thing
+uni project thing
